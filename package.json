@@ -2,9 +2,6 @@
   "engines": {
     "node": ">=12.16.3"
   },
-  "name": "big-poppa-code-react-starter-kit",
-  "version": "0.1.0",
-  "description": "A way for people to start a react project and not be locked into create react app",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -57,6 +54,7 @@
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.4.0",
     "morgan": "^1.10.0",
+    "object-keys": "^1.1.1",
     "serve-favicon": "^2.5.0"
   }
 }
