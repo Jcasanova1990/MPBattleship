@@ -5,7 +5,7 @@ const express = require('express')
 const http = require('http')
 const socketIo = require('socket.io')
 const mongoose = require('mongoose')
-const { placeShip, makeAttack, allShipsSunk } = require('./gameLogic')
+const { placeShip, makeAttack, allShipsSunk } = require('./GameLogic')
 
 const app = express()
 const server = http.vreateServer(app)
