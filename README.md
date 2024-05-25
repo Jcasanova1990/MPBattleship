@@ -1,6 +1,9 @@
 
 ## Steps
 
+**Install Dependencies**
+```bash
+npm i
 
 **Start the dev server**
 ```bash
