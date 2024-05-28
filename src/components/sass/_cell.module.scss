@@ -1,5 +1,5 @@
-@import '../sass/base/variables.module';
-@import '../sass/base/mixins.module';
+// Import variables from 'variables.module.scss'
+@import 'base/variables.module';
 
 .cell {
   width: $cell-size;

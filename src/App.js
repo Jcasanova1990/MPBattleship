@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
-import { placeShip, makeAttack } from './GameLogic';
+import { placeShip, makeAttack } from './gameLogic';
 import Board from './components/Board';
 import styles from './App.module.scss';
 

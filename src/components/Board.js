@@ -1,6 +1,6 @@
 import React from 'react'
 import Cell from './Cell'
-import styles from './Board.module.scss'
+import styles from './_board.module.scss'
 
 const Board = ({ board, handlePlaceShip, handleMakeAttack }) => {
     return (

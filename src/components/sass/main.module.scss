@@ -1,10 +1,10 @@
-@import 'base/reset.module';
-@import 'base/variables.module';
-@import 'base/mixins.module';
-@import 'base/typography.module';
-@import 'components/board.module';
-@import 'components/cell.module';
-@import 'components/ship.module';
+@import './components/sass/base/variables.module';
+@import './components/sass/base/mixins.module';
+@import './components/sass/base/reset.module';
+@import './components/sass/base/typography.module';
+@import './components/_board.module';
+@import './components/_cell.module';
+@import './components/_ship.module';
 
 .container {
   max-width: 1200px;

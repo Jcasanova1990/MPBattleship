@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Cell.module.scss'
+import styles from './_cell.module.scss'
 
 const Cell = ({ type, onClick}) => {
     let className = styles.Cell
