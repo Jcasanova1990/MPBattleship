@@ -1,0 +1,25 @@
+@import '../sass/base/variables.module';
+@import '../sass/base/mixins.module';
+
+.cell {
+  width: $cell-size;
+  height: $cell-size;
+  background-color: $background-color;
+  border: 1px solid $text-color;
+  position: relative;
+  @include center-content;
+  @include transition(background-color, 0.3s, ease-in-out);
+
+  &--hit {
+    background-color: $hit-color;
+  }
+
+  &--miss {
+    background-color: $miss-color;
+  }
+
+  &--ship {
+    background-color: $ship-color;
+    border-radius: $ship-border-radius;
+  }
+}
