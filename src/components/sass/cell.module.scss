@@ -1,6 +1,3 @@
-
-@import './base/variables.module';
-
 .cell {
   width: $cell-size;
   height: $cell-size;
@@ -23,3 +20,5 @@
     border-radius: $ship-border-radius;
   }
 }
+
+@import './base/variables.module.scss';
