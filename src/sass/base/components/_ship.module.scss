@@ -1,0 +1,26 @@
+.ship {
+    background-color: $ship-color;
+    border-radius: $ship-border-radius;
+    @include center-content;
+  
+    &--carrier {
+      width: calc($cell-size * 5);
+      height: $cell-size;
+    }
+  
+    &--battleship {
+      width: calc($cell-size * 4);
+      height: $cell-size;
+    }
+  
+    &--cruiser, &--submarine {
+      width: calc($cell-size * 3);
+      height: $cell-size;
+    }
+  
+    &--destroyer {
+      width: calc($cell-size * 2);
+      height: $cell-size;
+    }
+  }
+  
