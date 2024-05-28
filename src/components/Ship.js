@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import 'src/components/_ship.module.scss'; // Assuming you have a Ship-specific styling file
+import './sass/ship.module.scss'; // Assuming you have a Ship-specific styling file
 
 // Functional Component approach
 const Ship = ({ length, isVertical }) => {
