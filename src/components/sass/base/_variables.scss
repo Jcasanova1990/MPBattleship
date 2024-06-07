@@ -1,4 +1,4 @@
-// Colors
+
 $primary-color: #3498db;
 $secondary-color: #2ecc71;
 $background-color: #ecf0f1;
@@ -7,11 +7,13 @@ $hit-color: #e74c3c;
 $miss-color: #95a5a6;
 $ship-color: #34495e;
 
-// Sizes
-$board-size: 10; // 10x10 grid
-$cell-size: 40px;
+
+$board-W: 10;
+$board-H: 10;
+$cell-W: 40px;
+$cell-H: 40px;
 $ship-border-radius: 5px;
 
-// Z-index
+
 $z-index-front: 10;
 $z-index-back: 1;

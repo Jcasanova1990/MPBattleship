@@ -4,7 +4,7 @@ import { placeShip, makeAttack } from './gameLogic';
 import Board from './components/Board';
 import styles from './App.module.scss';
 
-const socket = io('http://localhost:5000');
+const socket = io('http://localhost:1942');
 
 const App = () => {
   const [gameId, setGameId] = useState(null);

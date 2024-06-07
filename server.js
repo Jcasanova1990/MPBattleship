@@ -6,6 +6,7 @@ const http = require('http');
 const socketIo = require('socket.io');
 const mongoose = require('mongoose');
 const path = require('path');
+const cors = require('cors')
 const { placeShip, makeAttack, allShipsSunk } = require('./src/gameLogic');
 
 const app = express();
@@ -22,6 +23,7 @@ mongoose.connect(process.env.MONGO_URI, {
     console.error('MongoDB connection error:', err);
 });
 
+app.use(cors());
 // Serve static files from the 'public' directory
 app.use(express.static(path.join(__dirname, 'public')));
 

@@ -1,10 +1,10 @@
-@import 'base/reset';
-@import 'base/variables';
-@import 'base/mixins';
-@import 'base/typography';
-@import 'components/board';
-@import 'components/cell';
-@import 'components/ship';
+@import './sass/base/reset';
+@import './sass/base/variables';
+@import './sass/base/mixins';
+@import './sass/base/typography';
+@import './sass/board.module.scss';
+@import './sass/cell.module.scss';
+@import './sass/ship.module.scss';
 
 .container {
   max-width: 1200px;

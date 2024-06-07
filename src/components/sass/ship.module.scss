@@ -4,22 +4,22 @@
   @include center-content;
 
   &--carrier {
-    width: calc($cell-size * 5);
-    height: $cell-size;
+    width: calc($cell-W * 5);
+    height: $cell-H;
   }
 
   &--battleship {
-    width: calc($cell-size * 4);
-    height: $cell-size;
+    width: calc($cell-W * 4);
+    height: $cell-H;
   }
 
   &--cruiser, &--submarine {
-    width: calc($cell-size * 3);
-    height: $cell-size;
+    width: calc($cell-W * 3);
+    height: $cell-H;
   }
 
   &--destroyer {
-    width: calc($cell-size * 2);
-    height: $cell-size;
+    width: calc($cell-W * 2);
+    height: $cell-H;
   }
 }
